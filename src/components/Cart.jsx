@@ -24,6 +24,7 @@ export default function Cart() {
                             <p>Coin: {el.name}</p>
                             <p>Price: {'$' + el.price}</p>
                             <p>Quantity: {el.quantity}</p>
+                            <p>Amount: ${Number(el.quantity)*Number(el.price)}</p>
                         </div>
 
                     )
